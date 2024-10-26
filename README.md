@@ -11,7 +11,7 @@ Nim :312410112
 ## Flowchart:
 ![saiiii](https://github.com/user-attachments/assets/8677a0c9-975a-4735-949f-8b7316a50bce)
 ## Kode Program 
-````python
+```python
 a = int(input("Masukkan bilangan A: "))
 b = int(input("Masukkan bilangan B: "))
 c = int(input("Masukkan bilangan C: "))
@@ -31,14 +31,14 @@ else:
         print("Terbesar adalah C")
 
 print(f"Bilangan terbesar adalah: {terbesar}")
-````
+```
 ## Contoh Output Program 
-````markdown
+```python
 Masukkan bilangan A: 30
 Masukkan bilangan B: 50
 Masukkan bilangan C: 70
 Terbesar adalah C
-````
+```
 ## cara kerja program 
 rogram ini meminta pengguna untuk memasukkan tiga bilangan (A, B, dan C) dan menentukan bilangan terbesar di antara ketiganya.
 
@@ -84,3 +84,15 @@ Masukan bilangan(0 untuk berhenti): 05
 Masukan bilangan(0 untuk berhenti): 0
 Bilangan terbesar: 17
 PS C:\Users\SAYIDINA RAMADHAN> 
+```
+## Cara Kerja Program
+Inisialisasi: Variabel max diinisialisasi dengan nilai 0. Ini akan digunakan untuk menyimpan bilangan terbesar yang dimasukkan oleh pengguna.
+
+Loop Tak Terbatas: Program masuk ke dalam loop while True, yang akan terus berjalan sampai dihentikan secara eksplisit dengan break.
+
+Input Pengguna: Di dalam loop, program meminta pengguna untuk memasukkan bilangan. Jika pengguna memasukkan 0, program akan berhenti (break) dari loop.
+
+Cek dan Update Max:
+
+Jika bilangan yang dimasukkan lebih besar dari nilai max, maka nilai max diupdate dengan bilangan tersebut.
+Output: Setelah pengguna memasukkan 0, program keluar dari loop dan mencetak nilai max, yaitu bilangan terbesar yang telah dimasukkan.

@@ -4,6 +4,7 @@ Nim :312410112
 ## Flowchart:
 ![saiiii](https://github.com/user-attachments/assets/8677a0c9-975a-4735-949f-8b7316a50bce)
 ## Kode Program :
+````mermaid
 a = int(input("Masukkan bilangan A: "))
 b = int(input("Masukkan bilangan B: "))
 c = int(input("Masukkan bilangan C: "))
@@ -23,6 +24,7 @@ else:
         print("Terbesar adalah C")
 
 print(f"Bilangan terbesar adalah: {terbesar}")
+````
 ## Contoh Output Program :
 Masukkan bilangan A: 30
 Masukkan bilangan B: 50

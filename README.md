@@ -3,15 +3,15 @@ Nama :Sayidina Ramadhan
 
 
 Nim :312410112
-## Deks Program:
+## Deks Program
 1. Meminta user memasukkan 3 bilangan berbeda
 2. Membandingkan ketiga bilangan tersebut
 3. Menentukan bilangan mana yang terbesar
 4. Menampilkan hasilnya ke layar
 ## Flowchart:
 ![saiiii](https://github.com/user-attachments/assets/8677a0c9-975a-4735-949f-8b7316a50bce)
-## Kode Program :
-````pyhton
+## Kode Program 
+````python
 a = int(input("Masukkan bilangan A: "))
 b = int(input("Masukkan bilangan B: "))
 c = int(input("Masukkan bilangan C: "))
@@ -32,14 +32,14 @@ else:
 
 print(f"Bilangan terbesar adalah: {terbesar}")
 ````
-## Contoh Output Program :
+## Contoh Output Program 
 ````markdown
 Masukkan bilangan A: 30
 Masukkan bilangan B: 50
 Masukkan bilangan C: 70
 Terbesar adalah C
 ````
-## cara kerja program : 
+## cara kerja program 
 rogram ini meminta pengguna untuk memasukkan tiga bilangan (A, B, dan C) dan menentukan bilangan terbesar di antara ketiganya.
 
 Input: Mengambil tiga bilangan dari pengguna.
@@ -66,7 +66,7 @@ Menampilkan bilangan terbesar yang ditemukan
 ![saii](https://github.com/user-attachments/assets/e1078b35-2a06-4adf-968e-f0a311a1813f)
 
 ## Code Program
-````Pyhton
+```Python
 max = 0                                              
 while True:                                          
     bilangan = int(input("Masukan bilangan(0 untuk berhenti): "))  
@@ -75,4 +75,12 @@ while True:
     if bilangan > max:                     
         max = bilangan                     
 print(f"Bilangan terbesar: {max}")
-````
+```
+## Contoh Hasil Program
+```Python
+Masukan bilangan(0 untuk berhenti): 17
+Masukan bilangan(0 untuk berhenti): 10
+Masukan bilangan(0 untuk berhenti): 05
+Masukan bilangan(0 untuk berhenti): 0
+Bilangan terbesar: 17
+PS C:\Users\SAYIDINA RAMADHAN> 

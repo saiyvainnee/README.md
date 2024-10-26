@@ -1,4 +1,4 @@
-## 1Mencari tiga bilangan terbesar
+## 1. Mencari tiga bilangan terbesar.
 Nama :Sayidina Ramadhan
 
 
@@ -49,3 +49,30 @@ Jika ya, periksa apakah A lebih besar dari C. Jika ya, A adalah terbesar; jika t
 Jika A tidak lebih besar dari B, periksa apakah B lebih besar dari C. Jika ya, B adalah terbesar; jika tidak, C adalah terbesar.
 Output: Menampilkan bilangan terbesar.
 Program ini bekerja dengan membandingkan bilangan satu sama lain menggunakan pernyataan if.
+
+
+## 2. Program mencari bilangan terbesar.
+Program sederhana untuk mencari nilai terbesar dari sekumpulan bilangan yang dimasukkan oleh pengguna menggunakan loop while True dan break statement.
+
+## Deks program
+Program di buat menggunakan bahasa python
+
+Menggunakan while True untuk perulangan tak terbatas
+Menggunakan break statement untuk menghentikan program
+Membandingkan setiap input dengan nilai maksimum yang tersimpan
+Menampilkan bilangan terbesar yang ditemukan
+
+## Flowchart Program
+![saii](https://github.com/user-attachments/assets/e1078b35-2a06-4adf-968e-f0a311a1813f)
+
+## Code Program
+````Pyhton
+max = 0                                              
+while True:                                          
+    bilangan = int(input("Masukan bilangan(0 untuk berhenti): "))  
+    if bilangan == 0:                               
+        break                                       
+    if bilangan > max:                     
+        max = bilangan                     
+print(f"Bilangan terbesar: {max}")
+````

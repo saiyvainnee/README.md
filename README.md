@@ -3,6 +3,11 @@ Nama :Sayidina Ramadhan
 
 
 Nim :312410112
+## Deks Program:
+1. Meminta user memasukkan 3 bilangan berbeda
+2. Membandingkan ketiga bilangan tersebut
+3. Menentukan bilangan mana yang terbesar
+4. Menampilkan hasilnya ke layar
 ## Flowchart:
 ![saiiii](https://github.com/user-attachments/assets/8677a0c9-975a-4735-949f-8b7316a50bce)
 ## Kode Program :
@@ -34,3 +39,13 @@ Masukkan bilangan B: 50
 Masukkan bilangan C: 70
 Terbesar adalah C
 ````
+## cara kerja program : 
+rogram ini meminta pengguna untuk memasukkan tiga bilangan (A, B, dan C) dan menentukan bilangan terbesar di antara ketiganya.
+
+Input: Mengambil tiga bilangan dari pengguna.
+Logika:
+Memeriksa apakah A lebih besar dari B.
+Jika ya, periksa apakah A lebih besar dari C. Jika ya, A adalah terbesar; jika tidak, C adalah terbesar.
+Jika A tidak lebih besar dari B, periksa apakah B lebih besar dari C. Jika ya, B adalah terbesar; jika tidak, C adalah terbesar.
+Output: Menampilkan bilangan terbesar.
+Program ini bekerja dengan membandingkan bilangan satu sama lain menggunakan pernyataan if.

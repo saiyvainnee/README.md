@@ -26,7 +26,9 @@ else:
 print(f"Bilangan terbesar adalah: {terbesar}")
 ````
 ## Contoh Output Program :
+````markdown
 Masukkan bilangan A: 30
 Masukkan bilangan B: 50
 Masukkan bilangan C: 70
 Terbesar adalah C
+````
